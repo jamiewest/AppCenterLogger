@@ -1,4 +1,6 @@
 # AppCenter Logger
+[![Build status](https://dev.azure.com/jamiewest/AppCenterLogger/_apis/build/status/AppCenterLogger-CI)](https://dev.azure.com/jamiewest/AppCenterLogger/_build/latest?definitionId=27)
+
 A Microsoft [AppCenter](https://appcenter.ms/) logger provider implementation for `Microsoft.Extensions.Logging`. 
 
 Visual Studio App Center is the next generation of Xamarin Test Cloud, and includes all the functionality of Xamarin Test Cloud and more. This logger is intended to be used in Xamarin.Forms projects that make use of `Microsoft.Extensions.Hosting` to manage basic app functions like logging, DI, and configuration. See [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-2.2) for more information regarding .NET Generic Host.
