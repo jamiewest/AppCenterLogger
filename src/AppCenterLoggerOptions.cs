@@ -10,6 +10,7 @@ namespace Microsoft.Extensions.Logging
         public string AppCenteriOSSecret { get; set; }
         public string AppCenterAndroidSecret { get; set; }
         public string AppCenterUWPSecret { get; set; }
+        public Microsoft.AppCenter.LogLevel AppCenterLogLevel {get; set; } = Microsoft.AppCenter.LogLevel.None;
 
         public string AppCenterSecret
         {

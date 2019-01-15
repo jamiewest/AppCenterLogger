@@ -19,7 +19,7 @@ namespace Microsoft.Extensions.Logging.AppCenter
         {
             _options = options;
             _loggers = new ConcurrentDictionary<string, AppCenterLogger>();
-            AppCenterBase.LogLevel = Microsoft.AppCenter.LogLevel.Verbose;
+            AppCenterBase.LogLevel = _options.CurrentValue.AppCenterLogLevel;
             AppCenterBase.Start(_options.CurrentValue.AppCenterSecret, typeof(Analytics), typeof(Crashes));
             ReloadLoggerOptions(options.CurrentValue);
         }

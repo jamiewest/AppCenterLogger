@@ -13,7 +13,7 @@
 
   <PropertyGroup>
     <PackageTags>Logging</PackageTags>
-    <PackageReleaseNotes>Version 2.2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Version 2.2.1</PackageReleaseNotes>
     <PackageLicenseUrl>https://github.com/jamiewest/AppCenterLogger/blob/master/LICENSE</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
