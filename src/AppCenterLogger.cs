@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
-using Microsoft.Extensions.Logging;
-
 
 namespace Microsoft.Extensions.Logging.AppCenter
 {
