@@ -6,7 +6,7 @@
     <PackageId>West.Extensions.Logging.AppCenter</PackageId>
     <Title>West.Extensions.Logging.AppCenter</Title>
     <Description>AppCenter logger provider implementation for Microsoft.Extensions.Logging.</Description>
-    <VersionPrefix>2.2.1</VersionPrefix>
+    <VersionPrefix>2.2.2</VersionPrefix>
     <TargetFramework>netstandard2.0</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
