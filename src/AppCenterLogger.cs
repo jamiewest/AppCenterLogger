@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
-using Microsoft.Extensions.Logging.Abstractions.Internal;
-
 
 namespace Microsoft.Extensions.Logging.AppCenter
 {
@@ -79,5 +77,7 @@ namespace Microsoft.Extensions.Logging.AppCenter
                     throw new ArgumentOutOfRangeException(nameof(logLevel));
             }
         }
+
+        
     }
 }

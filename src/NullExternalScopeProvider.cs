@@ -1,7 +1,6 @@
-﻿using Microsoft.Extensions.Logging.Abstractions.Internal;
-using System;
+﻿using System;
 
-namespace Microsoft.Extensions.Logging
+namespace Microsoft.Extensions.Logging.AppCenter
 {
     /// <summary>
     /// Scope provider that does nothing.
